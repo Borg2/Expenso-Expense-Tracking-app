@@ -14,18 +14,6 @@ A lightweight client-side expense tracker built with plain HTML, CSS and JavaScr
 
 Expenso is a minimal, client-side expense management app that helps you set monthly budgets, add expenses and visualize spending using charts. It is intended for local use (no backend) and persists data in the browser so you can quickly track and review personal expenses.
 
-## Getting Started
-
-1. Clone or download this repository to your machine.
-2. Open `index.html` in a browser (Chrome, Edge, Firefox). No build step required.
-
-Optional: to serve files over a local HTTP server (helpful for some browser features), run in the project folder:
-
-```
-python -m http.server 8000
-```
-
-Then open `http://localhost:8000` in your browser.
 
 ## Usage
 
@@ -40,7 +28,6 @@ Then open `http://localhost:8000` in your browser.
 - `index.html` — main UI and static markup.
 - `script.js` — application logic, localStorage handling, charts and UI interactions.
 - `style.css` — styles for the UI.
-- `data.json` — (present in repo) placeholder for structured data if needed.
 
 ## Data Storage
 
@@ -55,6 +42,3 @@ All data (expenses and monthly budgets) are stored in the browser's `localStorag
 
 Feel free to open issues or submit pull requests. For small improvements, styling tweaks, or translations, open a PR with a clear description of the change.
 
-## License
-
-Include a license file if you want to publish this repository publicly (e.g., `MIT`).
