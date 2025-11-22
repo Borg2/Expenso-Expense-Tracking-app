@@ -1,0 +1,42 @@
+.list-group-item.active {
+  background-color: #6c757d !important;   /* Bootstrap primary blue */
+  border-color: #E9ECEF !important;
+  color: white !important;
+}
+.button-grey {
+  background-color: #858585;
+  color: white;
+  
+}
+.button-grey:hover {
+  background-color: white;
+  color: #858585;
+  border-color: #858585;
+  
+}
+.button-grey-inv {
+  background-color: white;
+  color: #858585;
+  border-color: #858585;
+  
+}
+.button-grey-inv:hover {
+  background-color: #858585;
+  color: white;
+  
+}
+.button-red{
+
+  background-color: transparent;
+  color: #dc3545;
+  border-color: #dc3545;
+  
+   
+}
+.button-red:hover{
+
+  background-color: #dc3545;
+  color: white;
+  
+   
+}
